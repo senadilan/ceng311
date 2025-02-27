@@ -1,0 +1,53 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 10px;
+}
+
+body {
+	padding: 0 15%;
+}
+
+.header {
+	display: flex;
+	align-items: top;
+	justify-content: start;
+}
+
+.title {
+	padding-left: 15px;
+}
+
+.content {
+	padding: 20px 0;
+}
+
+.image {
+	float: left;
+}
+
+img.content-image {
+	width: 250px;
+	position: relative;
+	padding: 10px;
+}
+
+.main {
+	display: inline;
+	overflow: hidden;
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
